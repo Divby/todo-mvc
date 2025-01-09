@@ -1,0 +1,41 @@
+h1 {
+    color: red;
+    text-decoration: underline;
+}
+
+body {
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 2rem;
+    padding: 2rem;
+    display: block;
+}
+
+section {
+
+    text-align: center;
+    margin: auto;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+li {
+    padding: 0.5rem 0;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.not {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 500px) {
+    body {
+        width: 50%;
+    }
+}
